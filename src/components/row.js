@@ -2,38 +2,45 @@
 import * as React from 'react';
 
 import '../App.css';
-import Button from './button';
 
 type Props = {|
-  row: Array<string>,
-  onButtonClick: number => void,
-  rowIndex: number,
-  personIndex: Array<number>,
+  +row: Array<string>,
+  +onClickDelete: number => void,
+  +onClickEdit: number => void,
+  +rowIndex?: number,
+  +personIndex: Array<number>,
 |};
 
-export const Row = (props: Props) => {
-  const { row, onButtonClick, rowIndex, personIndex } = props;
+function Row(props: Props) {
+  const { row, onClickDelete, onClickEdit, rowIndex, personIndex } = props;
   return (
     <tr>
       {row.map((tag, index) => (
-        <td key={tag} className={personIndex.includes(index) ? 'active center' : 'active'}>
+        <td key={index} className={personIndex.includes(index) ? 'active center' : 'active'}>
           {tag}
         </td>
       ))}
-      <div className="wrap">
-        <Button type="button" bold blue onClick={() => onButtonClick(rowIndex)}>
-          Delete
-        </Button>
-        <Button
-          className="intent-left"
-          type="button"
-          bold
-          gray
-          onClick={() => onButtonClick(rowIndex)}
+
+      <div className="wrap column">
+        <div
+          className="small-size cursor"
+          role="button"
+          tabIndex={0}
+          onClick={() => onClickDelete(rowIndex)}
         >
-          Edit
-        </Button>
+          Удалить
+        </div>
+        <div
+          role="button"
+          tabIndex={0}
+          className="small-size cursor"
+          onClick={() => onClickEdit(rowIndex)}
+        >
+          Редактировать
+        </div>
       </div>
     </tr>
   );
-};
+}
+
+export default Row;
