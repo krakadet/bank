@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392574d3-0ec8-4aec-a4f8-8a3b2a16b44f" name="Default Changelist" comment="add server.js" />
+    <list default="true" id="392574d3-0ec8-4aec-a4f8-8a3b2a16b44f" name="Default Changelist" comment="delete server.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +36,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/krakadet/bank.git" />
+      </set>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -59,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mykhailo.kovtun\WebstormProjects\bank\public" />
       <recent name="C:\Users\mykhailo.kovtun\WebstormProjects\bank\src\constance" />
       <recent name="C:\Users\mykhailo.kovtun\WebstormProjects\bank\src\modules\flex-table" />
       <recent name="C:\Users\mykhailo.kovtun\WebstormProjects\bank\src\components\nav-bar" />
@@ -94,6 +102,14 @@
       <updated>1586348813211</updated>
       <workItem from="1586348815555" duration="13223000" />
     </task>
+    <task id="LOCAL-00001" summary="delete server.js">
+      <created>1586428710033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586428710033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +126,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete server.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete server.js" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586428652541">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586428652541" />
     <state width="1259" height="361" key="GridCell.Tab.0.bottom" timestamp="1586425356848">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
