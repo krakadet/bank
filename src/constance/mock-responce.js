@@ -1,6 +1,6 @@
 // @flow
 
-import person from '../person.json';
+import person from './person.json';
 
 const toJSon = JSON.stringify(person);
 const mockResponce = JSON.parse(toJSon);

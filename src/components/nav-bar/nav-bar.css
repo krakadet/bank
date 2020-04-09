@@ -1,0 +1,24 @@
+
+.nav {
+    height: 60px;
+    padding-bottom: 15px;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 30px;
+    margin: 0;
+}
+
+.nav li:hover {
+    background: #aca9b6;
+    transition: background .3s;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}

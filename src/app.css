@@ -12,7 +12,6 @@
 }
 
 .table {
-  font-family: Georgia, serif;
   border: 6px solid #24943A;
   background-color: #D4EED1;
   text-align: left;
@@ -37,7 +36,6 @@
 }
 .table thead th {
   font-size: 15px;
-  font-weight: bold;
   color: #F0F0F0;
   border-left: 2px solid #24943A;
 }
@@ -53,6 +51,10 @@
 
 .small-size {
   font-size: 14px;
+}
+
+.active {
+  margin: 0 5px;
 }
 
 .active:hover {

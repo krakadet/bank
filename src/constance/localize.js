@@ -10,7 +10,7 @@ export const converter = {
   LASTNAME: 'Фамилия',
   FIRSTNAME: 'Имя',
   PATRONYMIC: 'Отчество',
-  IDPERSON: 'Индетификатор',
+  IDPERSON: 'ID',
   STATUSNAME: 'Статус',
   ACC1NUM: 'Номер',
   CARDTEMPLNAME: 'Шаблон карты',

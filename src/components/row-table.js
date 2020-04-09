@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 
-import '../App.css';
+import '../app.css';
 
 type Props = {|
   +row: Array<string>,
@@ -11,7 +11,7 @@ type Props = {|
   +personIndex: Array<number>,
 |};
 
-function Row(props: Props) {
+function RowTable(props: Props) {
   const { row, onClickDelete, onClickEdit, rowIndex, personIndex } = props;
   return (
     <tr>
@@ -43,4 +43,4 @@ function Row(props: Props) {
   );
 }
 
-export default Row;
+export default RowTable;
